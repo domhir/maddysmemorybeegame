@@ -243,7 +243,20 @@ draft: false
     <div id="popup-content-alt">
       <img id="victory-img" src="img/victory.svg">
       <h1>Excellent work!</h1>
-      <p id="victory-text" >Test Message</p>
+      <p id="victory-text">Test Message</p>
+
+<script>
+  const messages = [
+    "Test Message 1",
+    "Test Message 2",
+    "Test Message 3",
+    "Test Message 4",
+    "Test Message 5"
+  ];
+
+  const randomIndex = Math.floor(Math.random() * messages.length);
+  document.getElementById("victory-text").textContent = messages[randomIndex];
+</script>
       <p id="victory-text">You've reached the highest rank, with&nbsp;<b id="victory-words"></b>&nbsp;and&nbsp;<b
           id="victory-points"></b>.</p>
       <p id="victory-countdown">Check back in&nbsp;<b id="victory-countdown-span">a bit</b>&nbsp;for a new puzzle.</p>
