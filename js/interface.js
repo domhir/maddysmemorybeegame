@@ -2,7 +2,7 @@
 let LEVEL_PERCENTS = [0.7, 0.55, 0.4, 0.25, 0.2, 0.15, 0.1, 0.05, 0];
 //let LEVEL_PERCENTS = [0];
 let LEVEL_NAMES = [
-  "Genius",
+  "You a G",
   "Exceptional",
   "Fabulous",
   "Superb",
